@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, Download, Share } from 'lucide-react';
-import logoImage from 'figma:asset/213b25174b29fb59fd97aae264ae0349c0ca4692.png';
+import logo from "@/public/logo.png";
 
 export function AddToHomeScreen() {
   const [showPrompt, setShowPrompt] = useState(false);
@@ -72,7 +72,7 @@ export function AddToHomeScreen() {
         </button>
 
         <div className="flex flex-col items-center text-center mb-6">
-          <img src={logoImage} alt="ePlannerAI" className="w-20 h-20 rounded-3xl mb-4 shadow-lg" />
+          <img src={logo.png} alt="ePlannerAI" className="w-20 h-20 rounded-3xl mb-4 shadow-lg" />
           <h2 className="text-[#A69B65] mb-2">Install ePlannerAI</h2>
           <p className="text-[#D9D8D7] text-sm leading-relaxed">
             Add this app to your home screen for quick access and a native app experience!

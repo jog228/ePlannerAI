@@ -1,5 +1,5 @@
 import { Plus, Play, BookOpen, TrendingUp } from 'lucide-react';
-import logoImage from 'figma:asset/213b25174b29fb59fd97aae264ae0349c0ca4692.png';
+import logoImage from "@/public/logo.png";
 
 interface HomeDashboardProps {
   onCreateTask: () => void;
@@ -21,7 +21,7 @@ export function HomeDashboard({ onCreateTask }: HomeDashboardProps) {
           <h1 className="text-[#D94625] mb-1">Good Morning! 👋</h1>
           <p className="text-[#A69B65]">Saturday, November 15</p>
         </div>
-        <img src={logoImage} alt="ePlannerAI" className="w-12 h-12 rounded-2xl" />
+        <img src={logoImage.src} alt="ePlannerAI" className="w-12 h-12 rounded-2xl" />
       </div>
 
       {/* AI-Generated Daily Plan */}

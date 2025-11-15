@@ -1,7 +1,8 @@
 "use client";
 
-import Image from "public/logo.png";
+import Image from "next/image";
 import { Calendar, AlertCircle } from "lucide-react";
+
 
 export function Widget() {
   // temporary test data
